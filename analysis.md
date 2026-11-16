@@ -1,0 +1,5 @@
+It's useful for IT director. The main finding is that phishing and failed login were the highest on October 12, 2026. There were 25 phishing reports and 1,678 failed logins. We could infer that they are related but couldn't conclude on that.  
+
+Weekday and weekend chart is useful for people who guards over security. Weekdays had an average of 11.71 phishing reports over 41 days. Weekends had an average of 4.78 reports over 18 days. So phishing reports are higher on weekdays. However, the sameple for weekend is smaller, so the result could be distorted. 
+
+Both chart show useful information but could be misleading with wrong intepretion. Start above zero would make difference look larger, which should be considered when viewing the graph. clean_threats prints the number of rows dropped and check if they're right. This makes the analysis more reliable.

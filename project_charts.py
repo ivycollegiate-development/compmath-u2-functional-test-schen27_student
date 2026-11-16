@@ -13,6 +13,7 @@ Run it with:
 Produces chart1_timeline.png and chart2_weekday_weekend.png.
 """
 
+
 import csv
 from datetime import datetime
 
@@ -111,6 +112,11 @@ def chart1_timeline(dates, phishing, failed):
 # ---------------------------------------------------------------------------
 def chart2_weekday_weekend(dates, phishing):
     """Two bars: the average phishing reports per day type."""
+    from datetime import datetime
+
+def is_weekend(date_text):
+    return datetime.strptime(date_text, "%Y-%m-%d").weekday() >= 5
+    weekday <avg> (<n> days) | weekend <avg> (<n> days)
 
     # Filter the lists Chart 1 already loaded and converted. Zipping date to
     # value keeps the pairing honest without touching the CSV again.
